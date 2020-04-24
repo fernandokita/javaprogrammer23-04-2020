@@ -1,0 +1,11 @@
+1. Explicar o conceito de encapsulamento (métodos e atributos), destacando seu propósito.
+
+ É de extrema importância na criação de um sistema cuja classe possuindo atributos de acesso Private. Isso porque não será público na ação
+ de terceiros (Usuarios, demais classes pertinentes do sistema), caso haja alguma intenção correlacionada. E o mesmo se aplica às operações,
+ estando privadas, não estarão de acesso disponível a terceiros.
+
+2. Explicar como o uso do encapsulamento em conjunto com métodos modificadores (como os setters) podem promover o reuso de código.
+
+ Para que não seja necessário a criação de uma outra classe contendo os respectivos atributos e métodos apenas para atualizar algo que faltou,
+ é usado no entanto, os métodos Setters, cujo objetivo serve para modificar o valor de tal atributo da classe. Aliás, caso exija manutenção
+ é sempre bem vinda boas práticas de programação em prol da eficiência e eficácia, como também no reuso do código.
