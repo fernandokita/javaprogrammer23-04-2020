@@ -1,0 +1,19 @@
+package TrabalhoPackage;
+
+public class App {
+
+	public static void main(String[]args) {
+		
+		try {
+			
+			double condicaoDePagamento = avaliarCondicao();
+			System.out.println(condicaoDePagamento );
+			
+		}
+		catch(RuntimeException errorException){
+			
+			System.out.println(errorException.getMessage() );
+		}
+		System.out.println("Mensagem de excecao : A mensalidade do curso é R$450.00. ");
+	}
+}
