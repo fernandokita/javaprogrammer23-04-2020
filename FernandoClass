@@ -1,0 +1,34 @@
+package TrabalhoPackage;
+
+public class Fernando {
+	
+	private String graduacao = "Análise e Desenvolvimento de Sistemas"; 
+	private final double mensalidadeGraduacao = 450.00; 
+	private double granaFernando = 0.00;
+	private String instrumentoMusical = "Piano";
+	
+	public Fernando(String graduacao, double mensalidadeGraduacao, double granaFernando) {
+		
+	}
+	
+	public String getInstrumentoMusical() {  // getter
+		
+		return this.instrumentoMusical = instrumentoMusical;
+	}
+	
+	public void setGranaFernando(double granaFernando) {  // setter
+		
+		this.granaFernando = granaFernando;
+	}
+	
+	// Method to discovery payment condition..
+	public void avaliarCondicao() {
+		
+		if(this.granaFernando > mensalidadeGraduacao) {
+			
+			granaFernando = granaFernando - mensalidadeGraduacao;
+		}
+		throw new RuntimeException("A mensalidade do curso: R$450.00. Complete o valor deste!");
+	}
+	
+}
